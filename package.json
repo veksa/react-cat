@@ -1,0 +1,58 @@
+{
+  "name": "@veksa/react-cat",
+  "version": "0.0.1",
+  "author": "Veksa",
+  "description": "meow",
+  "keywords": [
+    "react",
+    "meow"
+  ],
+  "license": "MIT",
+  "packageManager": "yarn@4.0.2",
+  "engines": {
+    "node": ">=18.16.0"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "compile": "tsc --noEmit",
+    "clean": "shx rm -rf lib && shx rm -rf es",
+    "build:cjs": "tsc -p tsconfig.build.json --outDir lib -d -t es5",
+    "build:es": "tsc -p tsconfig.build.json --outDir es -m es6",
+    "build": "yarn clean && yarn build:cjs && yarn build:es"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib/",
+    "es/"
+  ],
+  "sideEffects": false,
+  "homepage": "https://github.com/veksa/react-cat#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veksa/react-cat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/veksa/react-cat/issues"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.5",
+    "@types/react": "18.2.47",
+    "@types/react-dom": "18.2.18",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "shx": "0.3.4",
+    "tslib": "2.6.2",
+    "typescript": "5.3.3"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "dependencies": {
+    "@veksa/cat.ts": "0.0.4"
+  }
+}
