@@ -1,6 +1,6 @@
 {
   "name": "@veksa/react-cat",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Veksa",
   "description": "meow",
   "keywords": [
@@ -53,6 +53,6 @@
     "react-dom": "18.2.0"
   },
   "dependencies": {
-    "@veksa/cat.ts": "0.0.4"
+    "@veksa/cat.ts": "0.0.5"
   }
 }

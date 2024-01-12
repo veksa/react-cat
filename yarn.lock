@@ -48,12 +48,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@veksa/cat.ts@npm:0.0.4":
-  version: 0.0.4
-  resolution: "@veksa/cat.ts@npm:0.0.4"
+"@veksa/cat.ts@npm:0.0.5":
+  version: 0.0.5
+  resolution: "@veksa/cat.ts@npm:0.0.5"
   dependencies:
     animejs: "npm:3.2.2"
-  checksum: 9661bd2a2038456f3c229a92c97290535d21d7ab6327416eaabf6864e8cb6cf854ae69c8af687db6d99260293a4b813885f64411792d763f77181e2c02deb9b7
+  checksum: 54966a127bf07169b37a3c1f891778628008596267473aaf9dadc0db42f9860cd797918a1eebab6518b9436ea19d0e661daa8d76a18ea82e50de9098b7e1b921
   languageName: node
   linkType: hard
 
@@ -64,7 +64,7 @@ __metadata:
     "@types/node": "npm:20.10.5"
     "@types/react": "npm:18.2.47"
     "@types/react-dom": "npm:18.2.18"
-    "@veksa/cat.ts": "npm:0.0.4"
+    "@veksa/cat.ts": "npm:0.0.5"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     shx: "npm:0.3.4"
